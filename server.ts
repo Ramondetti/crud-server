@@ -20,7 +20,7 @@ import cors from "cors"
 const app = express()
 //và leggere le configurazioni scritte dentro al file .env
 dotenv.config({path:".env"})
-const connectionString = process.env.connectionStringLocal
+const connectionString = process.env.connectionStringAtlas
 const dbName = process.env.dbName
 
 //C. creazione ed avvio del server http
